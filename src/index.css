@@ -1,0 +1,17 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add your own custom global CSS rules below these directives if needed */
+body {
+  font-family: 'Inter', sans-serif; /* Example: set a default font for the whole app */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* You can remove App.css if its only purpose was the default Vite styling.
+   If App.css had custom styles you want to keep, you'll need to
+   either copy them here or import App.css into index.css.
+   For this project, App.css is likely unnecessary after Tailwind. */
